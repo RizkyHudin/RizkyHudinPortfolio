@@ -79,10 +79,15 @@ section {
   align-items: center;
 }
 
-.home-img {
+.home-img img{
   width: 35vw;
   animation: floatImage 4s ease-in-out infinite;
-  
+  width: 35rem;
+  height: 35rem;
+  border-radius: 60rem;
+  margin-left: 5rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  border: 3px solid var(--main-color);
 }
 
 @keyframes floatImage {
@@ -168,8 +173,12 @@ span {
 }
 
 .about-img img {
-  width: 35vw;
-  border-radius: 30%;
+  width: 35rem;
+  height: 35rem;
+  border-radius: 60rem;
+  margin-right: 5rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  border: 3px solid var(--main-color);
 }
 
 .heading {
